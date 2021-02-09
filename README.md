@@ -1,2 +1,2 @@
 # meta-data
-code base for automated ap[proach to meta tags in cms
+code base for automated approach to meta tags in cms

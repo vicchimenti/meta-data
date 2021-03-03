@@ -1,6 +1,6 @@
 /***
  *      @author Victor Chimenti, MSCS-SE '20
- *      @file full-text-custom-head-code.js
+ *      @file full-text-blog-post-custom-head-code.js
  *      @see https://www.seattleu.edu/business/graduate/graduate-blog/
  *
  *      This document will format the tags necessary to pull metadata from the

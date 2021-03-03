@@ -28,12 +28,8 @@ try {
     var metaArticleAuthor = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta property='article:author' content='<t4 type=\'content\' name=\'Posted By\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
     var metaTitleOG = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='title' property='og:title' content='<t4 type=\'content\' name=\'Post Title\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
     var metaDescriptionOG = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='description' property='og:description' content='<t4 type=\'content\' name=\'Body\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
-
-    // var metaImageOG = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='image' property='og:image' content='<t4 type=\'content\' name=\'Thumbnail image\' output=\'normal\' formatter=\'path/*\' />' />");
-    // var metaArticleTagsOG = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='article:tag' content='<t4 type=\'content\' name=\'Categories\' output=\'normal\' display_field=\'value\' />' />");
     var metaCard = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:card' property='summary_large_image' />");
     var metaTwitterSite = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:site' property='@seattleu' />");
-
     var metaTitleTwitter = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:title' content='<t4 type=\'content\' name=\'Post Title\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
     var metaDescriptionTwitter = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:description' content='<t4 type=\'content\' name=\'Body\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
 
@@ -50,8 +46,6 @@ try {
     document.write("<!-- Open Graph Meta -->");
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, metaTitleOG));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, metaDescriptionOG));
-    // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, metaImageOG));
-    // document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, metaArticleTagsOG));
     document.write("<!-- Twitter Meta -->");
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, metaCard));
     document.write(com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, metaTwitterSite));

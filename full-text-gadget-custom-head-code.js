@@ -1,13 +1,14 @@
 /***
- *     @author Victor Chimenti, MSCS-SE '20
- *     @file full-text-custom-head-code.js
+ *      @author Victor Chimenti, MSCS-SE '20
+ *      @file full-text-custom-head-code.js
+ *      @see https://www.seattleu.edu/cdli/resources/gadget-finder/
  *
- *     This document will format the tags necessary to pull metadata from the
- *     content item fields and insert it into the head of a page layout.
+ *      This document will format the tags necessary to pull metadata from the
+ *      content item fields and insert it into the head of a page layout.
  *
- *     Document will write once when the page loads
+ *      Document will write once when the page loads
  *
- *     @version 1.8
+ *      @version 1.8
  */
 
 

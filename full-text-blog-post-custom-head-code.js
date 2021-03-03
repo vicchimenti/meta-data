@@ -9,7 +9,7 @@
  *
  *      Document will write once when the page loads
  *
- *      @version 1.10
+ *      @version 1.11
  */
 
 
@@ -27,7 +27,7 @@ try {
     var metaType = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='og:type' content='article' />");
     var metaArticleAuthor = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta property='article:author' content='<t4 type=\'content\' name=\'Posted By\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
     var metaTitleOG = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='title' property='og:title' content='<t4 type=\'content\' name=\'Post Title\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
-    var metaDescriptionOG = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='description' property='og:description' content='<t4 type=\'content\' name=\'Body\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
+    var metaDescriptionOG = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='description' property='og:description' content='<t4 type=\'navigation\' name=\'Output Meta Description\' id=\'174\' />' />");
     var metaCard = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:card' property='summary_large_image' />");
     var metaTwitterSite = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:site' property='@seattleu' />");
     var metaTitleTwitter = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:title' content='<t4 type=\'content\' name=\'Post Title\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");

@@ -31,7 +31,7 @@ try {
     var metaCard = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:card' property='summary_large_image' />");
     var metaTwitterSite = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:site' property='@seattleu' />");
     var metaTitleTwitter = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:title' content='<t4 type=\'content\' name=\'Post Title\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
-    var metaDescriptionTwitter = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:description' content='<t4 type=\'content\' name=\'Body\' output=\'normal\' modifiers=\'striptags,htmlentities\' />' />");
+    var metaDescriptionTwitter = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<meta name='twitter:description' content='<t4 type=\'navigation\' name=\'Output Meta Description\' id=\'174\' />' />");
 
 
 

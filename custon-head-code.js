@@ -11,7 +11,7 @@
  *
  *     Document will write once when the page loads
  *
- *     @version 1.2
+ *     @version 1.3
  */
 
 
@@ -20,14 +20,13 @@
 try {
 
     var headTitle = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Meta Title' output='normal' modifiers='striptags,htmlentities' />");
-
-
+    var appendedTitle = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, '<t4 type="title" append-content="true" append-element="' + headTitle + '" separator="||" />');
     var headTitleString = '<title><t4 type="title" /></title>';
-    var appendedTitle = '<title><t4 type="title" append-content="true" append-element="' + headTitle + '" separator="||" /></title>';
+    // var appendedTitle = processT4Tags('<t4 type="title" append-content="true" append-element="' + headTitle + '" separator="||" />');
 
 
     if (headTitle != "") {
-        headTitleString = appendedTitle;
+        headTitleString = "<title>" + appendedTitle + "</title>";
     }
 
 

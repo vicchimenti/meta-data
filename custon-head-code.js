@@ -20,7 +20,7 @@
 try {
 
     var headTitle = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, "<t4 type='content' name='Meta Title' output='normal' modifiers='striptags,htmlentities' />");
-    var appendedTitle = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, '<t4 type="title" append-content="true" append-element="' + headTitle + '" separator="||" />');
+    var appendedTitle = com.terminalfour.publish.utils.BrokerUtils.processT4Tags(dbStatement, publishCache, section, content, language, isPreview, '<t4 type="title" append-content="true" append-element="' + headTitle + '" separator="||" include_content_on_index="false"/>');
     var headTitleString = '<title><t4 type="title" /></title>';
     // var appendedTitle = processT4Tags('<t4 type="title" append-content="true" append-element="' + headTitle + '" separator="||" />');
 

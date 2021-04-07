@@ -11,7 +11,7 @@ try {
     customTitle = '<t4 type="content" name="Custom Page Title" output="normal" modifiers="striptags, htmlentities"  />'; //It handle the Section Meta Description Element used to display the
 
     separator = " | "; //This will be the separator used
-    fullTextElement = "Meta Title" //This is the element used for fulltext pages - if left empty
+    fullTextElement = "Meta Title"; //This is the element used for fulltext pages - if left empty
 
     //Custom Page Title Program Layout
 

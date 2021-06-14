@@ -1,3 +1,7 @@
 div.newsArticleLink.standardContent a {
     text-decoration: none;
 }
+
+div.newsArticleLink.standardContent a:hover {
+    text-decoration: underline;
+}

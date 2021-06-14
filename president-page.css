@@ -3,5 +3,6 @@ div.newsArticleLink.standardContent a {
 }
 
 div.newsArticleLink.standardContent a:hover {
+    color: #aa0000;
     text-decoration: underline;
 }

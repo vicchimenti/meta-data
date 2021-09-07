@@ -17,8 +17,8 @@ importClass(com.terminalfour.content.IContentManager);
 importClass(com.terminalfour.template.TemplateManager);
 
 /** Global variables **/
-var CIDs = [207,226,234,256,593];
-//Secondary Content, Code Zone B, Focus Box, Program Summary Box, Facebook Feed
+var CIDs = [207,226,234,256,593,4903];
+//Secondary Content, Code Zone B, Focus Box, Program Summary Box, Facebook Feed, minispotlight
 
 var channel = publishCache.getChannel();
 while (section)

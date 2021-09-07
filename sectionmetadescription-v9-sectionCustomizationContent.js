@@ -16,12 +16,12 @@ importClass(com.terminalfour.template.TemplateManager);
 /* IDs of content types available for recursive use 
    All code-only, Curated Events Box, Facebook Feed, Focus Box, Give Button, Program Summary Box,
    Quicklinks, Secondary Content, Social Media Buttons, Supplemental Content, Twitter Timeline Feed,
-   Mini Spotlight, Contact Box
+   Mini Spotlight
    
    Remove when retired:
    732: Facebook Feed - Zone C, 828: Social Media Buttons (1)
 */
-var CIDs = [73,195,207,209,216,226,234,236,245,247,256,337,371,593,594,732,828,4943,4944,4899,4903,4900];
+var CIDs = [73,195,207,209,216,226,234,236,245,247,256,337,371,593,594,732,828,4943,4944,4899,4903];
 var channel = publishCache.getChannel();
 while (section)
 {

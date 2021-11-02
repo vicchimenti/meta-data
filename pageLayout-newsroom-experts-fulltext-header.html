@@ -6,7 +6,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><t4 type="title" append-content="true" append-element="meta title" separator=": " /></title>
+    <title>
+        <t4 type="title" append-content="true" append-element="meta title" separator=": " />
+    </title>
     <meta name="id" content="<t4 type='navigation' name='v9 - Section ID' id='522' />" />
     <meta name="author" content="Seattle University" />
     <meta property="og:site_name" content="Seattle University">
@@ -30,8 +32,11 @@
     <meta name="country" content="United States" />
     <meta name="Language" content="en" />
     <script>
-        if (document.querySelector('meta[name="twitter:url"]').content) {
-            document.write('<link rel="canonical" href="' + document.querySelector('meta[name="twitter:url"]').content + '" >');
+        let absoluteURL = (document.querySelector('meta[name="twitter:url"]')) ?
+            document.querySelector('meta[name="twitter:url"]').content :
+            null;
+        if (absoluteURL) {
+            document.write('<link rel="canonical" href="' + absoluteURL + '" >');
         }
     </script>
 

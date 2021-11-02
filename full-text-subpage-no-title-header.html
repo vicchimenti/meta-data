@@ -34,8 +34,11 @@
     <meta name="googlebot" content="all">
     <meta name="robots" content="all" />
     <script>
-        if (document.querySelector('meta[name="twitter:url"]').content) {
-            document.write('<link rel="canonical" href="' + document.querySelector('meta[name="twitter:url"]').content + '" >');
+        let absoluteURL = (document.querySelector('meta[name="twitter:url"]')) ?
+            document.querySelector('meta[name="twitter:url"]').content :
+            null;
+        if (absoluteURL) {
+            document.write('<link rel="canonical" href="' + absoluteURL + '" >');
         }
     </script>
 
@@ -80,7 +83,10 @@
 
             <div id="TopZone" class="col-xs-12">
                 <t4 type="navigation" name="V9 - Site Navigation in Top Zone" id="468" />
-                <h1 class="pageTitle sr-only"><t4 type="title-on-index" /><t4 type="title" append-content="true" append-element="name" separator=": " /></h1>
+                <h1 class="pageTitle sr-only">
+                    <t4 type="title-on-index" />
+                    <t4 type="title" append-content="true" append-element="name" separator=": " />
+                </h1>
             </div>
 
             <div id="zoneC" class="col-xs-12">

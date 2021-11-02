@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 
-    <head>
+<head>
 
-        <meta charset="utf-8" />
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <t4 type="navigation" name="V9 - Recursive Title" id="437" />
-        <meta name="id" content="<t4 type='navigation' name='v9 - Section ID' id='522' />" />
-        <meta name="author" content="Seattle University" />
-        <meta property="og:site_name" content="Seattle University">
-        <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <t4 type="meta" property="og:title" id="48" />
-        <t4 type="meta" name="twitter:title" id="45" />
-        <meta name="twitter:site" content="@seattleu" />
-        <meta name="twitter:creator" content="@seattleu" />
-        <t4 type="meta" name="twitter:url" id="44" />
-        <t4 type="meta" property="og:url" id="28" />
-        <t4 type="meta" name="twitter:image" id="50" />
-        <t4 type="meta" property="og:image" id="27" />
-        <t4 type="meta" name="twitter:description" id="49" />
-        <t4 type="meta" property="og:description" id="47" />
-        <t4 type="meta" property="description" id="18" />
-        <t4 type="meta" property="keywords" id="19" />
-        <t4 type="meta" property="page last modified" id="22" />
-        <meta name="siteid" content="us" />
-        <meta name="countryid" content="US" />
-        <meta name="country" content="United States" />
-        <meta name="Language" content="en" />
-        <meta name="googlebot" content="all">
-        <meta name="robots" content="all" />
-        <script>
-            if (document.querySelector('meta[name="twitter:url"]').content) {
-                document.write('<link rel="canonical" href="' + document.querySelector('meta[name="twitter:url"]').content + '" >');
-            }
-        </script>
-    
-        <!-- Nav and stylesheets -->
-        <t4 type="navigation" name="V9 - Custom Header Code" id="438" />
-        <t4 type="navigation" name="v9 - CSS references" id="439" />
-        <t4 type="navigation" name="V9 - Custom CSS Zone" id="444" />
-        <t4 type="navigation" name="V9 - Custom CSS Zone - Recursive" id="445" />
-    
-    </head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <t4 type="navigation" name="V9 - Recursive Title" id="437" />
+    <meta name="id" content="<t4 type='navigation' name='v9 - Section ID' id='522' />" />
+    <meta name="author" content="Seattle University" />
+    <meta property="og:site_name" content="Seattle University">
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <t4 type="meta" property="og:title" id="48" />
+    <t4 type="meta" name="twitter:title" id="45" />
+    <meta name="twitter:site" content="@seattleu" />
+    <meta name="twitter:creator" content="@seattleu" />
+    <t4 type="meta" name="twitter:url" id="44" />
+    <t4 type="meta" property="og:url" id="28" />
+    <t4 type="meta" name="twitter:image" id="50" />
+    <t4 type="meta" property="og:image" id="27" />
+    <t4 type="meta" name="twitter:description" id="49" />
+    <t4 type="meta" property="og:description" id="47" />
+    <t4 type="meta" property="description" id="18" />
+    <t4 type="meta" property="keywords" id="19" />
+    <t4 type="meta" property="page last modified" id="22" />
+    <meta name="siteid" content="us" />
+    <meta name="countryid" content="US" />
+    <meta name="country" content="United States" />
+    <meta name="Language" content="en" />
+    <meta name="googlebot" content="all">
+    <meta name="robots" content="all" />
+    <script>
+        let absoluteURL = (document.querySelector('meta[name="twitter:url"]')) ?
+            document.querySelector('meta[name="twitter:url"]').content :
+            null;
+        if (absoluteURL) {
+            document.write('<link rel="canonical" href="' + absoluteURL + '" >');
+        }
+    </script>
+
+    <!-- Nav and stylesheets -->
+    <t4 type="navigation" name="V9 - Custom Header Code" id="438" />
+    <t4 type="navigation" name="v9 - CSS references" id="439" />
+    <t4 type="navigation" name="V9 - Custom CSS Zone" id="444" />
+    <t4 type="navigation" name="V9 - Custom CSS Zone - Recursive" id="445" />
+
+</head>
 
 <body class="homePage homepageWithBreadcrumbs">
     <nav aria-label="Skip to important sections">

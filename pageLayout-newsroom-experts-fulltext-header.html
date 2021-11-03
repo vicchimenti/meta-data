@@ -6,8 +6,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="canonical" href="https://www.seattleu.edu<t4 type='navigation' name='Canonical Path' id='889' />" >
-    <title><t4 type="title" append-content="true" append-element="meta title" separator=": " /></title>
+    <title><t4 type="title" append-content="true" append-element="meta title" separator=" | " /></title>
     <meta name="id" content="<t4 type='navigation' name='v9 - Section ID' id='522' />" />
     <meta name="author" content="Seattle University" />
     <meta property="og:site_name" content="Seattle University">
@@ -32,10 +31,18 @@
     <meta name="Language" content="en" />
     <meta name="googlebot" content="all">
     <meta name="robots" content="all" />
+    <meta name="theme-color" content="white">
+    <script>
+        let absoluteURL = (document.querySelector('meta[name="twitter:url"]')) ?
+            document.querySelector('meta[name="twitter:url"]').content :
+            null;
+        if (absoluteURL) {
+            document.write('<link rel="canonical" href="' + absoluteURL + '" >');
+        }
+    </script>
 
 
     <!-- news meta customizations -->
-    <t4 type="navigation" name="Date Meta" id="373" />
     <t4 type="channel" output="fav-icon" />
     <!-- font awesome -->
     <!--<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">

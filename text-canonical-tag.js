@@ -98,9 +98,10 @@ try {
             myMicrosite = publishCache.getMicroSiteFromChild(cachedSection);
             channel = myMicrosite ? myMicrosite : publishCache.getChannel();
             try {
-                publishURL = String(channel.getChannelPublishURL());
+                publishURL = 'https://www.seattleu.edu';
+                // publishURL = String(channel.getChannelPublishURL());
             } catch (e) {
-                publishURL = '';
+                publishURL = 'https://www.seattleu.edu';
             }
             if (publishURL != '') {
                 domain = String(publishURL);

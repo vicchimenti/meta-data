@@ -11,8 +11,8 @@ try {
     with(FullListOutputImports) {
         var defaultDomain, getMirrorSource, customCanonicalURL;
         defaultDomain = {};
-        defaultDomain[1] = 'http://mainchannel.com';
-        defaultDomain[8] = 'http://microsite.com';
+        defaultDomain[1] = 'https://www.seattleu.edu';
+        defaultDomain[8] = 'https://www.seattleu.edu';
         getMirrorSource = true;
         customCanonicalURL = '<t4 type="navigation" id="<!-- INSERT ID -->"/>';
 

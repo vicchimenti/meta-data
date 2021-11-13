@@ -217,7 +217,7 @@ try {
         var customCanonicalURL = processT4Tags(customCanonicalURL);
         canonicalURL = customCanonicalURL === '' ? getFullURL(defaultDomain, getMirrorSource) : getDomainURL(defaultDomain) + customCanonicalURL;
         if (!isPreview) {
-            html = '<link rel="canonical" href="' + canonicalURL + '"/>';
+            html = '<link rel="canonical" href="' + canonicalURL + '"/><meta name="twitter:url" content="' + canonicalURL + '"><meta property="og:url" content="' + canonicalURL + '">';
         } else {
             html = '<!-- Sorry Canonical URL is not available in preview -->';
         }

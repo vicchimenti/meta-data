@@ -1,0 +1,76 @@
+#id3683470 {
+    display: none;
+  }
+  #vtzv3746279 { 
+      background: #f7f7f7;
+      margin-bottom: 0; 
+  }
+
+  .embeddedVideoInner {
+    /* position: relative; */
+    /* padding-bottom: 56.25%; */
+    overflow: hidden;
+    background-image: url("/media/homepage/images/FALL_CSI_WelcomeBack_yk_012-c16x9-s2560-mw.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card-img-overlay {
+      text-align: center;
+      width: 100%;
+      padding: 3rem 3rem 6rem;;
+  }
+  h2.card-title {
+      font-size:2.4rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+  }
+  .card-body .card-text p {
+      font-family:"Oswald",sans-serif;
+      font-size:4.8rem;
+      line-height: 1.5;
+      margin-bottom:0;
+  }
+  .card-body .card-text p a {
+      font-family:"Montserrat",sans-serif;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      color: #fff;
+      background: #aa0000;
+      border: 1px solid #fff;
+      text-transform: uppercase;
+      padding: 1.6rem;
+      display: inline-block;
+      font-weight: 500;
+      text-decoration: none;
+      transition: all 0.2s ease;
+  }
+  .card-body .card-text p a:focus, 
+  .card-body .card-text p a:hover {
+      color:#fff;
+      border-color:#088099;
+      background-color:#088099;
+  }
+  @media only screen and (min-width: 768px) {
+    #vtzv3746279 { 
+      background:#333;  
+     }
+    .card-img-overlay {
+      position: absolute;
+      top: 0;
+    }
+      h2.card-title {
+      font-size:3.2rem;
+      color:#fff;
+      text-shadow: 0 0 10px rgb(0 0 0 / 90%);
+     }
+     .card-body .card-text p {
+      font-size:6.4rem;
+      color:#fff;
+      text-shadow: 0 0 10px rgb(0 0 0 / 90%);
+     }
+     .card-body .card-text p a {
+      text-shadow:none;
+     }
+  }

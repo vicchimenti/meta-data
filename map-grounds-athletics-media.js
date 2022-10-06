@@ -90,7 +90,7 @@
   
   // Helper function to determine whether a menu is open.
   function isOpen (key) {
-    return document.querySelector(`[aria-labelledby="${key}"]`).ariaExpanded === 'true';
+    return document.querySelector(`[aria-labelledby="${key}"]`).ariaExpanded === 'true'
   }
   
   // Toggles menu key category

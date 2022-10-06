@@ -1262,15 +1262,6 @@
 //  *** End of Google Map JavaScript ***  //
 }
 
-
-
-
-/**
- * 
- *  Load the map
- * 
- */
-initMap();
   
   
 

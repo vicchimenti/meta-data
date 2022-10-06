@@ -110,7 +110,7 @@
   } 
   
   //  *** Implementation of initialize function ***  //
-  function initMap() {
+  function initialize() {
 
     //  ***  Campus Primary Location  ***  //
     let seattleu = {

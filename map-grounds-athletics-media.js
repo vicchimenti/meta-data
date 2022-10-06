@@ -2,7 +2,7 @@
  *  @file map.js
  *      Media Library ID: 4730737
  * 
- *  @see SU Grounds Map
+ *  @see SU Grounds Athletic Fields
  *  Google Map JS API
  * 
  */

@@ -394,18 +394,8 @@ function modifyTextBox(type, header, text) {
 
 
 
-/**
- * 
- *  Load the map
- * 
- */
-initMap();
-  
-  
-
 /***
  *  Media Library ID: 4730736
  *  map.js
  * 
  */
-

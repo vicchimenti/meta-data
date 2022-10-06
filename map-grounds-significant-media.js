@@ -782,20 +782,8 @@ function modifyTextBox(type, header, text) {
 
 
 
-
-/**
- * 
- *  Load the map
- * 
- */
-initMap();  
-  
-
 /***
  *  Media Library ID: 4730738
  *  map.js
  * 
  */
-
-
-

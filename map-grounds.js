@@ -284,7 +284,7 @@
     // create object to store Info Box attributes
     let japaneseGardenObj = {linkId: japaneseGardenLink, linkName: 'CAMP Japanese Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(japaneseGardenLink, 'click', function() {
+    google.maps.event.addListener(japaneseGardenLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(japaneseGardenMarker.getPosition());
         modifyTextBox(0, japaneseGardenObj.linkName, japaneseGardenObj.linkDesc);

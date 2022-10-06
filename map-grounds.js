@@ -1,4 +1,4 @@
-<script>
+{/* <script> */}
 /***
  *  @file map.js
  *      Media Library ID: 4181392
@@ -1284,4 +1284,4 @@ initMap();
 
 
 
-</script>
+{/* </script> */}

@@ -323,7 +323,7 @@
     // create object to store Info Box attributes
     let VHILBObj = {linkId: VHILBLink, linkName: 'Vi Hilbert Ethnobotanical Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(VHILBLink, 'click', function() {
+    google.maps.event.addListener(VHILBLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(VHILBMarker.getPosition());
         modifyTextBox(0, VHILBObj.linkName, VHILBObj.linkDesc);
@@ -362,7 +362,7 @@
     // create object to store Info Box attributes
     let ciscoeMorrisObj = {linkId: ciscoeMorrisLink, linkName: 'Cisco Morris Biodiversity Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(ciscoeMorrisLink, 'click', function() {
+    google.maps.event.addListener(ciscoeMorrisLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(ciscoeMorrisMarker.getPosition());
         modifyTextBox(0, ciscoeMorrisObj.linkName, ciscoeMorrisObj.linkDesc);
@@ -401,7 +401,7 @@
     // create object to store Info Box attributes
     let kubotaLegacyObj = {linkId: kubotaLegacyLink, linkName: 'Kubota Legacy Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(kubotaLegacyLink, 'click', function() {
+    google.maps.event.addListener(kubotaLegacyLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(kubotaLegacyMarker.getPosition());
         modifyTextBox(0, kubotaLegacyObj.linkName, kubotaLegacyObj.linkDesc);
@@ -440,7 +440,7 @@
     // create object to store Info Box attributes
     let unionGreenObj = {linkId: unionGreenLink, linkName: 'Union Green', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(unionGreenLink, 'click', function() {
+    google.maps.event.addListener(unionGreenLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(unionGreenMarker.getPosition());
         modifyTextBox(0, unionGreenObj.linkName, unionGreenObj.linkDesc);
@@ -479,7 +479,7 @@
     // create object to store Info Box attributes
     let wildlifeGardenObj = {linkId: wildlifeGardenLink, linkName: 'Wildlife Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(wildlifeGardenLink, 'click', function() {
+    google.maps.event.addListener(wildlifeGardenLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(wildlifeGardenMarker.getPosition());
         modifyTextBox(0, wildlifeGardenObj.linkName, wildlifeGardenObj.linkDesc);
@@ -518,7 +518,7 @@
     // create object to store Info Box attributes
     let meditationGardenObj = {linkId: meditationGardenLink, linkName: 'HUNT Meditation Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(meditationGardenLink, 'click', function() {
+    google.maps.event.addListener(meditationGardenLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(meditationGardenMarker.getPosition());
         modifyTextBox(0, meditationGardenObj.linkName, meditationGardenObj.linkDesc);
@@ -557,7 +557,7 @@
     // create object to store Info Box attributes
     let remembranceGardensObj = {linkId: remembranceGardensLink, linkName: 'Japanese Remembrance Gardens', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(remembranceGardensLink, 'click', function() {
+    google.maps.event.addListener(remembranceGardensLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(remembranceGardensMarker.getPosition());
         modifyTextBox(0, remembranceGardensObj.linkName, remembranceGardensObj.linkDesc);
@@ -596,7 +596,7 @@
     // create object to store Info Box attributes
     let rainGardenObj = {linkId: rainGardenLink, linkName: 'Lee Miley Rain Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(rainGardenLink, 'click', function() {
+    google.maps.event.addListener(rainGardenLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(rainGardenMarker.getPosition());
         modifyTextBox(0, rainGardenObj.linkName, rainGardenObj.linkDesc);
@@ -635,7 +635,7 @@
     // create object to store Info Box attributes
     let xavrGardenObj = {linkId: xavrGardenLink, linkName: 'XAVR Courtyard Kubota Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(xavrGardenLink, 'click', function() {
+    google.maps.event.addListener(xavrGardenLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(xavrGardenMarker.getPosition());
         modifyTextBox(0, xavrGardenObj.linkName, xavrGardenObj.linkDesc);
@@ -674,7 +674,7 @@
     // create object to store Info Box attributes
     let eisimingerFitnessObj = {linkId: eisimingerFitnessLink, linkName: 'Eisiminger Fitness Center', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(eisimingerFitnessLink, 'click', function() {
+    google.maps.event.addListener(eisimingerFitnessLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(eisimingerFitnessMarker.getPosition());
         modifyTextBox(0, eisimingerFitnessObj.linkName, eisimingerFitnessObj.linkDesc);
@@ -713,7 +713,7 @@
     // create object to store Info Box attributes
     let lemieuxLibraryObj = {linkId: lemieuxLibraryLink, linkName: 'Lemieux Library', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(lemieuxLibraryLink, 'click', function() {
+    google.maps.event.addListener(lemieuxLibraryLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(lemieuxLibraryMarker.getPosition());
         modifyTextBox(0, lemieuxLibraryObj.linkName, lemieuxLibraryObj.linkDesc);
@@ -752,7 +752,7 @@
     // create object to store Info Box attributes
     let teaGardenObj = {linkId: teaGardenLink, linkName: 'Japanese Tea Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(teaGardenLink, 'click', function() {
+    google.maps.event.addListener(teaGardenLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(teaGardenMarker.getPosition());
         modifyTextBox(0, teaGardenObj.linkName, teaGardenObj.linkDesc);
@@ -795,7 +795,7 @@
     // create object to store Info Box attributes
     let chdnGardensObj = {linkId: chdnGardensLink, linkName: 'CHDN Edible Gardens', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(chdnGardensLink, 'click', function() {
+    google.maps.event.addListener(chdnGardensLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(chdnGardensMarker.getPosition());
         modifyTextBox(3, chdnGardensObj.linkName, chdnGardensObj.linkDesc);
@@ -834,7 +834,7 @@
     // create object to store Info Box attributes
     let broadwayGardensObj = {linkId: broadwayGardensLink, linkName: 'Broadway Edible Gardens', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(broadwayGardensLink, 'click', function() {
+    google.maps.event.addListener(broadwayGardensLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(broadwayGardensMarker.getPosition());
         modifyTextBox(3, broadwayGardensObj.linkName, broadwayGardensObj.linkDesc);
@@ -873,7 +873,7 @@
     // create object to store Info Box attributes
     let chapelBlueberriesObj = {linkId: chapelBlueberriesLink, linkName: 'Chapel Blueberries Edible Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(chapelBlueberriesLink, 'click', function() {
+    google.maps.event.addListener(chapelBlueberriesLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(chapelBlueberriesMarker.getPosition());
         modifyTextBox(3, chapelBlueberriesObj.linkName, chapelBlueberriesObj.linkDesc);
@@ -912,7 +912,7 @@
     // create object to store Info Box attributes
     let adminWestObj = {linkId: adminWestLink, linkName: 'Admin west edibles, apples, blueberries', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(adminWestLink, 'click', function() {
+    google.maps.event.addListener(adminWestLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(adminWestMarker.getPosition());
         modifyTextBox(3, adminWestObj.linkName, adminWestObj.linkDesc);
@@ -951,7 +951,7 @@
     // create object to store Info Box attributes
     let pavillionPotagerObj = {linkId: pavillionPotagerLink, linkName: 'Pavillion Potager "everything in the soup" Garden', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(pavillionPotagerLink, 'click', function() {
+    google.maps.event.addListener(pavillionPotagerLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(pavillionPotagerMarker.getPosition());
         modifyTextBox(3, pavillionPotagerObj.linkName, pavillionPotagerObj.linkDesc);
@@ -990,7 +990,7 @@
     // create object to store Info Box attributes
     let columbiaOrchardObj = {linkId: columbiaOrchardLink, linkName: 'Columbia Building Orchard', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(columbiaOrchardLink, 'click', function() {
+    google.maps.event.addListener(columbiaOrchardLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(columbiaOrchardMarker.getPosition());
         modifyTextBox(3, columbiaOrchardObj.linkName, columbiaOrchardObj.linkDesc);
@@ -1033,7 +1033,7 @@
     // create object to store Info Box attributes
     let marionRedwoodObj = {linkId: marionRedwoodLink, linkName: 'Marion Giant Redwood', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(marionRedwoodLink, 'click', function() {
+    google.maps.event.addListener(marionRedwoodLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(marionRedwoodMarker.getPosition());
         modifyTextBox(1, marionRedwoodObj.linkName, marionRedwoodObj.linkDesc);
@@ -1072,7 +1072,7 @@
     // create object to store Info Box attributes
     let garrLaurelObj = {linkId: garrLaurelLink, linkName: 'GARR Large Mature Laurel', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(garrLaurelLink, 'click', function() {
+    google.maps.event.addListener(garrLaurelLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(garrLaurelMarker.getPosition());
         modifyTextBox(1, garrLaurelObj.linkName, garrLaurelObj.linkDesc);
@@ -1111,7 +1111,7 @@
     // create object to store Info Box attributes
     let kubotaMaplesObj = {linkId: kubotaMaplesLink, linkName: 'Kubota Mature Japanese Maples', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(kubotaMaplesLink, 'click', function() {
+    google.maps.event.addListener(kubotaMaplesLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(kubotaMaplesMarker.getPosition());
         modifyTextBox(1, kubotaMaplesObj.linkName, kubotaMaplesObj.linkDesc);
@@ -1155,7 +1155,7 @@
     // create object to store Info Box attributes
     let championshipFieldObj = {linkId: championshipFieldLink, linkName: 'Championship Field Varsity Soccer', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(championshipFieldLink, 'click', function() {
+    google.maps.event.addListener(championshipFieldLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(championshipFieldMarker.getPosition());
         modifyTextBox(2, championshipFieldObj.linkName, championshipFieldObj.linkDesc);
@@ -1194,7 +1194,7 @@
     // create object to store Info Box attributes
     let universityParkObj = {linkId: universityParkLink, linkName: 'University Park', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(universityParkLink, 'click', function() {
+    google.maps.event.addListener(universityParkLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(universityParkMarker.getPosition());
         modifyTextBox(2, universityParkObj.linkName, universityParkObj.linkDesc);
@@ -1233,7 +1233,7 @@
     // create object to store Info Box attributes
     let loganFieldObj = {linkId: loganFieldLink, linkName: 'Logan Field', linkDesc: ""};
     // create dom listener for b-coloumn anchor link
-    google.maps.event.addDomListener(loganFieldLink, 'click', function() {
+    google.maps.event.addListener(loganFieldLink, 'click', function() {
         map.setZoom(19);
         map.setCenter(loganFieldMarker.getPosition());
         modifyTextBox(2, loganFieldObj.linkName, loganFieldObj.linkDesc);

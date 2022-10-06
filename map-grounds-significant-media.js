@@ -109,7 +109,7 @@ function modifyTextBox(type, header, text) {
   } 
   
   //  *** Implementation of initialize function ***  //
-  function initMap() {
+  function initialize() {
 
     //  ***  Campus Primary Location  ***  //
     let seattleu = {

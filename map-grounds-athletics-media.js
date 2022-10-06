@@ -395,18 +395,8 @@
 
 
 
-/**
- * 
- *  Load the map
- * 
- */
-initMap();
-  
-  
-
 /***
  *  Media Library ID: 4730737
  *  map.js
  * 
  */
-

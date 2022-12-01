@@ -1,0 +1,146 @@
+<header id="globalHeader" class="container-fluid is-visible" data-nav-status="toggle">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".collapseMe" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span> <span class="icon-bar"></span><span class="icon-bar"></span></button>
+    <div id="mainlogo" class="col-xs-6 col-md-2"> 
+      <a href="/" title="Seattle University Home Page">
+        <t4 type="media" formatter="image/*" id="239923" />
+      </a> 
+    </div>
+    <div id="globalHeaderResourcesWrapper" class="col-xs-12 col-md-10">
+      <div id="globalHeaderResources" class="collapse navbar-collapse collapseMe">
+        <div id="googleSearchBox" class="col-xs-12 col-sm-5 col-sm-push-7 col-md-4 col-md-push-8">
+          <form class="gsc-search-box">
+            <table class="gsc-search-box">
+              <tbody>
+                <tr>
+                  <td class="gsc-input"><input autocomplete="off" type="text" size="10" class="gsc-input" name="Search" title="Search" id="gsc-i-id1" x-webkit-speech="" x-webkit-grammar="builtin:search" lang="en" dir="ltr" placeholder="Search" spellcheck="false" style="outline: none;">
+                    <input type="hidden" name="bgresponse" id="bgresponse"></td>
+                  <td class="gsc-search-button" onclick="SendSearch('gsc-i-id1');"><button type="submit" value="Search" class="gsc-search-button" title="search"></button></td>
+                  <td class="gsc-clear-button"><div class="gsc-clear-button" title="clear results">&nbsp;</div></td>
+                </tr>
+              </tbody>
+            </table>
+          </form>
+          <script>
+            // Add listener to submit search query on form submit
+            $("form.gsc-search-box").on('submit', function() {
+              var URL = "//www.seattleu.edu/search/";
+              window.location.href = URL + "?q=" + encodeURIComponent($("form.gsc-search-box input.gsc-input").val());
+              return false; // Stops the form from executing its default submit (which reloads the page and breaks our desired functionality)
+            });
+          </script> 
+        </div>
+        <ul id="globalHeaderResourcesLinks" class="col-xs-12 col-sm-7 col-sm-pull-5 col-md-8 col-md-pull-4" role="menubar" aria-label="Header Resources Links">
+          <li role="none"><a href="/visit/" id="SUtopNavVisit" class="globalHeaderResourcesLinksItem" role="menuitem" aria-label= "Plan a visit to Seattle University">Visit</a></li>
+          <li role="none"><a href="/admissions/apply/" id="SUtopNavApply" class="globalHeaderResourcesLinksItem" role="menuitem" aria-label= "Apply to Seattle University">Apply</a></li>
+          <li role="none"><a href="/giving/" id="SUtopNavGive" class="globalHeaderResourcesLinksItem" role="menuitem" aria-label="Give to Seattle University">Give</a></li>
+          <li role="none"><a href="/alumni/" id="SUtopNavAlumni" class="globalHeaderResourcesLinksItem" role="menuitem" aria-label= "Alumni of Seattle University">Alumni</a></li>
+          <li role="none"><a href="/get-answers/" id="SUtopNavSSC" class="globalHeaderResourcesLinksItem" role="menuitem" aria-label= "Student Support Center">Student Support</a></li>
+          <li class="dropdown" role="none"><a href="#" id="headerResourcesMenu" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-label="Open SU Resources submenu" aria-haspopup="true" aria-expanded="false">SU Resources <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu" aria-labelledby="headerResourcesMenu">
+                <li role="none"><a href="https://outlook.com/owa/seattleu.edu" role="menuitemradio" tabindex="-1" aria-checked="false" target="_blank" title="Email (opens new window)">Email</a></li>
+                <li role="none"><a href="https://seattleu.instructure.com/login" role="menuitemradio" tabindex="-1" aria-checked="false" target="_blank" title="Canvas (opens new window)">Canvas</a></li>
+                <li role="none"><a href="https://my.seattleu.edu/" role="menuitemradio" tabindex="-1" aria-checked="false" target="_blank" title="my Seattle U (opens new window)">mySeattleU</a></li>
+                <li role="none"><a href="https://www.seattleu.edu/library/" role="menuitemradio" tabindex="-1" aria-checked="false" target="_blank" title="Library (opens new window)">Library</a></li>
+                <li role="none"><a href="https://www.seattleu.edu/quicklinks/" role="menuitemradio" tabindex="-1" aria-checked="false" target="_blank" title="Quicklinks (opens new window)">Quicklinks</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  
+    <div id="globalHeaderNavigationWrapper" class="collapse navbar-collapse collapseMe">
+      <ul id="globalHeaderNavigation" class="nav navbar-nav" role="menubar" aria-label="Global Navigation">
+      
+        <li id="aboutSubMenu" class="dropdown mega-dropdown" role="none"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-label="Open About Seattle University submenu" aria-haspopup="true" aria-expanded="false">About <span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span></a>
+          <div class="dropdown-menu mega-dropdown-menu">
+            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+               <t4 type="navigation" name="V9 - Global Navigation - About Submenu" id="508" />
+            </div>
+            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
+              <t4 type="navigation" name="V9 - Global Navigation - About Quicklinks" id="509" />
+            </div>
+          </div>
+        </li>
+  
+        <li id="academicsSubMenu" class="dropdown mega-dropdown" role="none"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-label="Open Academics submenu" aria-haspopup="true" aria-expanded="false">Academics <span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span></a>
+          <div class="dropdown-menu mega-dropdown-menu">
+            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+                <t4 type="navigation" name="V9 - Global Navigation - Academics" id="510" />
+            </div>
+            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
+               <t4 type="navigation" name="V9 - Global Navigation - Academics Quicklinks" id="511" />
+            </div>
+          </div>
+        </li>
+        <li id="studentLifeSubMenu" class="dropdown mega-dropdown" role="none"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-label="Open Student Life submenu" aria-haspopup="true" aria-expanded="false">Student Life <span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span></a> 
+          <div class="dropdown-menu mega-dropdown-menu">
+            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+               <t4 type="navigation" name="V9 - Global Navigation - Student Life" id="512" />
+            </div>
+            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
+             <t4 type="navigation" name="V9 - Global Navigation - Student Life Quicklinks" id="513" />
+            </div>
+          </div>
+        </li>
+  
+        <li id="admissionsSubMenu" class="dropdown mega-dropdown" role="none"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-label="Open Admissions submenu" aria-haspopup="true" aria-expanded="false">Admissions <span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span></a> 
+          <div class="dropdown-menu mega-dropdown-menu">
+            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+               <t4 type="navigation" name="V9 - Global Navigation - Admissions" id="514" />
+            </div>
+            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
+             <t4 type="navigation" name="V9 - Global Navigation - Admissions Quicklinks" id="515" />
+            </div>
+          </div>
+        </li>
+  
+        <li id="tuitionSubMenu" class="dropdown mega-dropdown" role="none"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-label="Open Tuition and Aid submenu" aria-haspopup="true" aria-expanded="false">Tuition and Aid <span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span></a> 
+          <div class="dropdown-menu mega-dropdown-menu">
+            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+               <t4 type="navigation" name="V9 - Global Navigation - Tuition and Aid" id="516" />
+            </div>
+            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
+             <t4 type="navigation" name="V9 - Global Navigation - Tuition and Aid Quicklinks" id="517" />
+            </div>
+          </div>
+        </li>
+  
+        <li id="jesuitSubMenu" class="dropdown mega-dropdown" role="none"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="menuitem" aria-label="Open Jesuit Tradition submenu" aria-haspopup="true" aria-expanded="false">Jesuit Tradition <span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span></a> 
+          <div class="dropdown-menu mega-dropdown-menu">
+            <div class="globalHeaderNavigationMainLinks col-xs-12 col-sm-9">
+               <t4 type="navigation" name="V9 - Global Navigation - Jesuit Tradition" id="518" />
+            </div>
+            <div class="globalHeaderNavigationQuickLinks col-xs-12 col-sm-3">
+             <t4 type="navigation" name="V9 - Global Navigation - Jesuit Tradition Quicklinks" id="519" />
+            </div>
+          </div>
+        </li>
+        <li id="athleticsLink" class="dropdown mega-dropdown" role="none"><a href="https://www.goseattleu.com" class="dropdown-toggle" role="menuitem" target="_blank" title="Athletics (opens new window)">Athletics <span class="fa fa-angle-right visible-xs-inline" aria-hidden="true"></span></a> 
+        </li>
+
+      </ul>
+    </div>
+
+  </header>
+  
+<div class="infographicWrapper contentItem noGap" data-position-default="ZoneA" data-position-selected="ZoneA" data-order="6">
+  <span id="d.en.3929885"></span>
+  
+  <div class="infographic">
+    <div class="infographicItem colorGold col-xs-12" style="padding: 15px;">
+      
+      
+      <div class="infographicItemHeader">
+       Seattle University is Open and Operating on a Regular Schedule
+      </div>
+      <div class="infographicItemText standardContent">
+<p>Seattle University is open and operating on a regular schedule for all classes, business operations, and activities today, Thursday, December 1st. Please use caution when navigating the campus, given cold and wet conditions. </p>
+<p>In all cases, faculty, staff, and students who live off-campus should use their best judgment about how safe it is to travel based on the conditions near their homes. Please inform your supervisor or professor (by e-mail or phone) if weather conditions impact your ability to be in the office or class.</p></div>
+    </div>
+ 
+    <div class="clearfix"></div>
+  </div>
+  <div class="clearfix"></div>
+    
+  <div class="clearfix"></div>
+</div>

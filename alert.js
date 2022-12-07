@@ -1,13 +1,14 @@
-/**********************************************************************************
- / Script required for Emergency Notice Content Type
- / Reads in content from the Seattle University » Campus Alert section
- /
- / Based on TerminalFour's Site Wide Notice plug-in
- / Added to site on October 10 2017 by Dozie and Jason, Updated January 2018
- / July 2019 by Jason: Optimized a bit
- / January 2020 by Jason: made Read More link only show if there is a Full Message
- / 
- /*********************************************************************************/
+/***
+ *  @file alert.js
+ *  @see Media Library ID 247588
+ * 
+ *  Added to site on October 10 2017 by Dozie and Jason
+ * 
+ * @version 1.0
+ * 
+ */
+
+
 
 // Cookie Functions
 function setCookie(cname, cvalue, exdays) {

@@ -40,7 +40,7 @@ function checkEmergency() {
 
 $(document).ready(function() {
     try {
-        //console.log("<t4 type='navigation' name='Path to Emergency Section' id='495' />emergency.json");
+        //console.log("<t4 type='navigation' name='Law - Path to Emergency Section' id='906' />emergency.json");
         var EmCookieSet = getCookie('emergency').split(',');
         var checkBanner = $.getJSON("<t4 type='navigation' name='Law - Path to Emergency Section' id='906' />emergency.json", function(data) {
             // Ignore dummy element
